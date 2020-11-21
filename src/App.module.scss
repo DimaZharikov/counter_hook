@@ -1,0 +1,105 @@
+.content {
+  display: flex;
+  height: 720px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #11172f;
+  color: aqua;
+  font-size: 1em;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.boxItems {
+  border: 5px solid aqua;
+  height: 500px;
+  width: 600px;
+  margin-right: 30px;
+  border-radius: 35px;
+  padding: 15px;
+
+}
+
+.monitorBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  height: 300px;
+  border: 5px solid aqua;
+  border-radius: 35px;
+
+}
+
+.btnBox {
+  display: flex;
+  margin: 15px auto;
+  border: 5px solid aqua;
+  border-radius: 35px;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.SettingItems {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  h3 {
+    padding-right: 5px;
+    font-size: 25px;
+  }
+
+
+  input {
+    font-weight: bolder;
+    font-size: 20px;
+    text-justify: auto;
+    height: 25px;
+    width: 50%;
+    text-align: center;
+  }
+
+  .btnInput {
+    display: block;
+    margin: 0 auto;
+  }
+
+
+}
+
+.btnStyle {
+  height: 50px;
+  width: 100px;
+  outline: none;
+  border-radius: 15px;
+  font-size: 30px;
+  font-weight: bolder;
+  text-align: center;
+  background-color: aqua;
+  margin: 80px;
+}
+
+.counterBox {
+  h1 {
+    font-size: 3em;
+  }
+}
+
+
+.maxNumber { color: red}
+
+
+.ValueError{
+  color: red;
+  background-color: #eaa9a9;
+}
+
+
